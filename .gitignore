@@ -1,0 +1,21 @@
+# Server runtime state — re-downloaded / regenerated on each setup
+data/server.jar
+data/libraries/
+data/versions/
+data/logs/
+data/mods/*.jar
+data/world/
+data/world.backup-*/
+data/terrain-diffusion-models/
+data/.fabric/
+data/config/
+data/.server-stdin
+data/banned-*.json
+data/ops.json
+data/usercache.json
+data/whitelist.json
+data/session.lock
+
+# Orchestrator runtime
+orchestrator.log
+*.tgz
